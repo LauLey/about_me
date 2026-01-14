@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #d3dce6;
+    background-color: #e4e6e9;
 
 }
 p {
@@ -18,9 +18,12 @@ h1 {
 h2 {
     color: #3A5F8C;
     text-align: center;
-
 }
 
+.nav__link {
+    color: #e6a6b3;
+    font-weight: bold;
+}
 .nav__link:hover {
     color: #f5f7fa;
     background-color: #e6a6b3;
@@ -30,7 +33,7 @@ a:link {
     color: #e6a6b3;
 }
 
-.button:hover {
+.item:hover {
     background-color: #e6a6b3;
 }
 
@@ -64,4 +67,85 @@ a:link {
 
 .nav__list {
     text-align: center;
+}
+
+.hero__title {
+    color: #3A5F8C;
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    border: 1rem;
+    margin: 3rem 1 rem 1rem;
+}
+
+.hero__subtitle {
+    color: #2B2B2B;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero__description {
+    text-align: center;
+    color: #2B2B2B;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.hero__actions {
+    text-align: center;
+    font-weight: bold;
+}
+.button--primary {
+    color: #f5f7fa;
+    background-color:#e6a6b3;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: auto;
+    text-decoration: none;
+}
+
+.button--secondary {
+    color: #e6a6b3;
+    background-color: #f5f7fa;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: auto;
+    text-decoration: none;
+}
+
+.hero__stats {
+    text-align: center;
+}
+.stat {
+    font-weight: bold;
+    display: inline-block;
+    margin: 2rem;
+}
+
+.stat__number {
+    color: #e6a6b3;
+    font-size: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bold;
+    display: block;
+}
+
+.stat__label {
+    color: #2B2B2B;
+    font-size: 1rem;
+    padding: 1rem;
+    display: block;
+}
+
+.about {
+    text-align: justify;
+    padding: 4rem;
+    border:1rem;
+    margin: 1rem 16rem 2rem;
+}
+
+.about__intro {
+    font-size: 1rem;
 }
