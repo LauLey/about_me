@@ -20,9 +20,21 @@ h2 {
     text-align: center;
 }
 
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    border: solid 1px #3A5F8C;
+}
+
 .nav__link {
     color: #e6a6b3;
+    background-color: #FFFFFF;
     font-weight: bold;
+    padding: 10px;
+    border: 2px solid #e6a6b3;
+    margin: 2px;
+    text-decoration: none;
 }
 .nav__link:hover {
     color: #f5f7fa;
@@ -39,10 +51,8 @@ a:link {
 
 .header__name {
     font-size: 3rem;
+    margin: 0;
     font-weight: bold;
-    padding: 1rem;
-    border: 1rem;
-    margin: 1rem;
     text-align: center;
 }
 
@@ -58,13 +68,6 @@ a:link {
     display: inline-block;
 }
 
-.nav__link {
-    padding: 10px;
-    border: 2px solid #e6a6b3;
-    margin: 2px;
-    text-decoration: none;
-}
-
 .nav__list {
     text-align: center;
 }
@@ -75,7 +78,7 @@ a:link {
     font-size: 4rem;
     padding: 1rem;
     border: 1rem;
-    margin: 3rem 1 rem 1rem;
+    margin: 3rem 1rem 1rem;
 }
 
 .hero__subtitle {
@@ -148,4 +151,99 @@ a:link {
 
 .about__intro {
     font-size: 1rem;
+}
+
+.quote {
+    border-left: solid 4px #3A5F8C;
+    padding: 3rem;
+}
+
+.quote__author {
+    text-align: right;
+    display: block;
+}
+
+.values__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.values__item {
+    padding: 1rem;
+}
+
+.values__list {
+    list-style: none;
+}
+
+.projects__description {
+    text-align: center;
+}
+
+.project {
+    text-align: justify;
+    padding: 4rem;
+    margin: 1rem 16rem 2rem;
+    border: 2px;
+}
+
+.project:hover {
+    border: solid 2px #3a5f8c;
+}
+
+.project__technologies {
+    color: #3A5F8C;
+    font-weight: bold;
+}
+
+.project__link {
+    display: inline-block;
+    padding: 1rem;
+    color: #3A5F8C;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tag {
+    display: inline-block;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.skills {
+    padding: 4rem;
+    margin: 1rem 16rem 2rem;
+}
+
+.skills:hover {
+    border: solid 2px #e6a6b3;
+}
+
+.contact {
+    padding: 4rem;
+    margin: 1rem 16rem 2rem;
+    color: #e4e6e9;
+    background-color: #3A5F8C;
+}
+
+.contact__title {
+    color: #2B2B2B;
+}
+
+.contact__method {
+    margin: 1rem;
+}
+
+.button--large {
+    display: block;
+}
+
+.project__badge {
+    color: #FFFFFF;
+    background-color: #3A5F8C;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
 }
