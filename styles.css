@@ -41,10 +41,6 @@ h2 {
     background-color: #e6a6b3;
 }
 
-a:link {
-    color: #e6a6b3;
-}
-
 .item:hover {
     background-color: #e6a6b3;
 }
@@ -100,7 +96,7 @@ a:link {
     font-weight: bold;
 }
 .button--primary {
-    color: #f5f7fa;
+    color: #FFFFFF;
     background-color:#e6a6b3;
     font-size: 1rem;
     padding: 1rem;
@@ -204,6 +200,11 @@ a:link {
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
+    border: solid 1px #3A5F8C;
+}
+
+.project__link:hover {
+    background-color: #3A5F8C;
 }
 
 .tag {
