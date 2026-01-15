@@ -5,6 +5,7 @@
 body {
     color: #2B2B2B;
     background-color: #e4e6e9;
+    font-family: "Playfair Display", sans-serif;
 
 }
 p {
@@ -32,9 +33,9 @@ h2 {
     color: #e6a6b3;
     background-color: #FFFFFF;
     font-weight: bold;
-    padding: 10px;
+    padding: 0.7rem;
     border: 2px solid #e6a6b3;
-    margin: 2px;
+    margin: 0.125rem;
     text-decoration: none;
 }
 .nav__link:hover {
@@ -51,6 +52,7 @@ h2 {
     margin: 0;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .header__tagline {
@@ -151,6 +153,10 @@ h2 {
 .quote {
     border-left: solid 4px #3A5F8C;
     padding: 3rem;
+}
+
+.quote__text {
+    font-style: italic;
 }
 
 .quote__author {
@@ -263,5 +269,6 @@ h2 {
     font-weight: bold;
     font-size: 1rem;
     padding: 1rem;
+    margin: 0.125rem;
     text-decoration: none;
 }
