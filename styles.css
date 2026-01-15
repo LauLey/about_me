@@ -247,3 +247,16 @@ a:link {
     font-size: 1rem;
     padding: 1rem;
 }
+
+.footer__nav {
+    text-align: center;
+}
+
+.footer__link {
+    color: #FFFFFF;
+    background-color: #e6a6b3;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+}
