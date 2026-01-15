@@ -216,7 +216,7 @@ h2 {
 
 .skills {
     padding: 4rem;
-    margin: 1rem 8rem;
+    margin: 1rem auto;
     max-width: 800px;
 }
 
@@ -226,10 +226,11 @@ h2 {
 
 .contact {
     padding: 4rem;
-    margin: 1rem 8rem;
     max-width: 800px;
     color: #e4e6e9;
     background-color: #3A5F8C;
+    margin: 1rem auto;
+    max-width: 800px;
 }
 
 .contact__title {
