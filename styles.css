@@ -18,7 +18,6 @@ body {
 }
 p {
     color: var(--color-text);
-
 }
 
 a {
@@ -40,6 +39,8 @@ h2 {
     border-radius: 0.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header__name {
@@ -65,10 +66,17 @@ ul {
     padding: 0;
 }
 
+.nav {
+    display: flex;
+    margin: 0 auto;
+}
+
 .nav__list {
     display: flex;
     justify-content: center;
     gap: 0.3rem;
+    padding: 1rem;
+    margin: 0 auto;
     flex-wrap: wrap;
 }
 
@@ -78,10 +86,13 @@ ul {
     font-weight: bold;
     padding: 0.7rem;
     border: 2px solid var(--color-accent);
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px;
 }
 .nav__link:hover {
     color: #f5f7fa;
     background-color: var(--color-accent);
+    border-radius: 10px;
 }
 
 .item:hover {
@@ -115,11 +126,12 @@ ul {
 
 .hero__description {
     font-size: 1rem;
-    text-align: center;
+    text-align: justify;
     color: var(--color-text);
     padding: 0 auto;
-    margin: 0.2rem auto;
+    margin: 1rem auto;
     font-weight: 500;
+    width: 17rem;
 }
 
 .hero__actions {
@@ -128,19 +140,22 @@ ul {
     padding: 1rem;
 }
 .button--primary {
-    color: #FFFFFF;
+    color: #f5f7fa;
     background-color:var(--color-accent);
+    border: solid 2px #f5f7fa;
 }
 
 .button--secondary {
     color: var(--color-accent);
     background-color: #f5f7fa;
+    border: solid 2px var(--color-accent);
 }
 
 .button {
     font-size: 1rem;
     padding: 1rem;
-    margin: 0 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
 }
 
 .hero__stats {
@@ -175,9 +190,6 @@ ul {
     padding: 0 auto;
     margin: 2rem auto;
     max-width: 800px;
-}
-
-.about {
     display: flex;
     justify-content: space-between;
     gap: 5rem;
@@ -188,7 +200,9 @@ ul {
 }
 .about__intro {
     font-size: 1rem;
+    font-weight: 500;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 .about__text {
@@ -273,15 +287,20 @@ ul {
     margin: 10px;
 }
 
-.skills {
+.skills__container {
+    text-align: justify;
     padding: 4rem;
     margin: 1rem auto;
     max-width: 800px;
 }
 
-.skills:hover {
+.skills__container:hover {
     border: solid 2px var(--color-accent);
     border-radius: 0.5rem;
+}
+
+.skills__title {
+    margin: 0 auto;
 }
 
 .contact {
@@ -299,12 +318,20 @@ ul {
     color: var(--color-text);
 }
 
+.contact__methods {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .contact__method {
-    margin: 1rem;
+    text-align: center;
 }
 
 .button--large {
     display: block;
+    color: #f5f7fa;
+    background-color: var(--color-accent);
 }
 
 .project__badge {
@@ -320,6 +347,7 @@ ul {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer__nav {
