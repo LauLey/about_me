@@ -39,15 +39,18 @@ h2 {
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
     flex-wrap: wrap;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .header__brand {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .header__name {
@@ -57,6 +60,7 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     color: var(--color-heading);
+    padding: 5px;
 }
 
 .header__tagline {
@@ -71,15 +75,16 @@ ul {
     padding: 0;
 }
 
-.nav {
+.nav__container {
     display: flex;
-    margin: 0 auto;
 }
 
 .nav__list {
     display: flex;
     justify-content: center;
-    gap: 0.3rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
     padding: 1rem;
 }
 
@@ -111,6 +116,12 @@ ul {
     gap: 15px;
 }
 
+.hero__container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .hero__title {
     color: var(--color-primary);
     text-shadow: 2px 2px 7px var(--color-text);
@@ -133,7 +144,7 @@ ul {
     color: var(--color-text);
     margin: 1rem auto;
     font-weight: 500;
-    width: 17rem;
+    width: 60%;
 }
 
 .hero__actions {
@@ -199,18 +210,18 @@ ul {
     gap: 5rem;
 }
 
-.about__title {
+.about__container {
+    width: 90%;
     margin: 0 auto;
-}
-.about__intro {
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0 auto;
-    padding: 1rem;
 }
 
-.about__text {
+.about__title {
     margin: 0 auto;
+    padding: 10px;
+}
+.about {
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 .quote {
@@ -230,10 +241,12 @@ ul {
     text-align: right;
 }
 
-.values {
+.values__container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .values__title {
@@ -248,15 +261,21 @@ ul {
     text-align: left;
 }
 
+.projects__container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .projects__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    gap: 20px;
 }
 
 .projects__description {
     text-align: center;
-    margin: 1rem auto;
+    margin: 10px auto;
+    font-weight: bold;
 }
 
 .project {
@@ -269,6 +288,15 @@ ul {
     background-color: var(--color-background);
     border: solid 2px var(--color-primary);
     border-radius: 0.5rem;
+}
+
+.project__badge {
+    color: #FFFFFF;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
 }
 
 .project__technologies {
@@ -301,7 +329,8 @@ ul {
     text-align: justify;
     padding: 4rem;
     margin: 0 auto;
-    max-width: 800px;
+    width: 90%;
+    font-size: 1rem;
 }
 
 .skills__container:hover {
@@ -340,15 +369,14 @@ ul {
     background-color: #2de930;
 }
 
-.contact {
-    padding: 4rem;
-    max-width: 800px;
+.contact__container {
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
     color: var(--color-background);
     background-color: var(--color-primary);
     border: solid 1px var(--color-primary);
-    border-radius: 0.5rem;
-    margin: 1rem auto;
-    max-width: 800px;
+    border-radius: 10px;
 }
 
 .contact__title {
@@ -371,12 +399,8 @@ ul {
     background-color: var(--color-accent);
 }
 
-.project__badge {
-    color: #FFFFFF;
-    background-color: var(--color-primary);
-    font-weight: bold;
-    font-size: 1rem;
-    padding: 1rem;
+.button--large:hover {
+    border: solid 2px var(--color-background);
 }
 
 .footer {
@@ -385,6 +409,8 @@ ul {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .footer__nav {
@@ -400,6 +426,7 @@ ul {
     font-weight: bold;
     font-size: 1rem;
     padding: 1rem;
+    border-radius: 10 px;
 }
 
 .footer__copyright {
