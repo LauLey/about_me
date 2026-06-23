@@ -383,17 +383,17 @@ ul {
 }
 
 .skill__progress--html {
-    width: 75%;
+    width: 80%;
     background-color: #e92d2d;
 }
 
 .skill__progress--css {
-    width: 60%;
+    width: 80%;
     background-color: #e9a12d;
 }
 
 .skill__progress--js {
-    width: 20%;
+    width: 40%;
     background-color: #2de930;
 }
 
